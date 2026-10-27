@@ -1,0 +1,9 @@
+# Corne V4 (Kea Workshop, Pro-Micro Edition R3) + TENSTAR/SuperMini nRF52840
+---
+include:
+  - board: nice_nano//zmk
+    shield: corne_left
+  - board: nice_nano//zmk
+    shield: corne_right
+  - board: nice_nano//zmk
+    shield: settings_reset
