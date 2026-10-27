@@ -1,4 +1,0 @@
-/* Diagnóstico: SSD1306 no endereço 0x3D */
-&oled {
-    reg = <0x3d>;
-};

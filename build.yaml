@@ -9,14 +9,3 @@ include:
     shield: corne_right
   - board: nice_nano//zmk
     shield: settings_reset
-  # Diagnóstico temporário: log USB do display/I2C (sem Studio)
-  - board: nice_nano//zmk
-    shield: corne_left
-    snippet: zmk-usb-logging
-    cmake-args: -DCONFIG_DISPLAY_LOG_LEVEL_DBG=y -DCONFIG_I2C_LOG_LEVEL_DBG=y -DCONFIG_ZMK_DISPLAY_BLANK_ON_IDLE=n
-    artifact-name: corne_left_debug
-  - board: nice_nano//zmk
-    shield: corne_left oled3d
-    snippet: zmk-usb-logging
-    cmake-args: -DCONFIG_ZMK_DISPLAY_BLANK_ON_IDLE=n
-    artifact-name: corne_left_debug_3d
