@@ -4,7 +4,7 @@
 | Label | Firmware | Bootloader |
 |---|---|---|
 | LEFT  | `corne_left` (central, Studio) | nice!nano UF2 0.6.0, S140 6.1.1 |
-| RIGHT | `corne_right` (peripheral) | same (serial `C1EDBA3F6905580A`) |
+| RIGHT | `corne_right` (peripheral) | same |
 
 Do not swap sides without running `settings_reset` on both.
 

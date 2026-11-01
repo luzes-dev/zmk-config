@@ -2,7 +2,6 @@
 FileName: luna.c
 Date: 15:40 25.02.2025
 Author: Marcos Ivan Chow Castro @mctechnology17
-Email: mctechnology170318@gmail.com
 GitHub: https://github.com/mctechnology17
 Brief: ZMK oled animations luna the dog
 ===========================================
